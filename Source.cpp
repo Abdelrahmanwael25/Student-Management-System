@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     GradeManager manager;
 
-    Student s1("abdulrahman", "wael", 19);
+    Student s1("abdelrahman", "wael", 19);
     Student s2("wael", "ahmed", 21);
 
     Course c1("Math", 1213);
@@ -26,4 +26,5 @@ int main() {
     cout << "\nAverage = " << manager.average() << endl;
 
     return 0;
+
 }
